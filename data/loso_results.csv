@@ -1,0 +1,51 @@
+station,city,MAE,R2,n
+Anand Vihar,Delhi,19.62,0.9425,2098
+Wazirpur,Delhi,23.18,0.9195,2109
+ITO,Delhi,17.52,0.9529,2135
+Shadipur,Delhi,15.88,0.9527,2136
+Punjabi Bagh,Delhi,8.26,0.9857,2137
+Rohini,Delhi,7.9,0.9838,2136
+Okhla,Delhi,8.02,0.985,2137
+RK Puram,Delhi,6.92,0.9865,2137
+Mandir Marg,Delhi,15.38,0.9462,2137
+Dwarka,Delhi,17.31,0.9246,2137
+Manali,Chennai,11.88,0.7844,2029
+Perungudi,Chennai,4.72,0.952,2048
+Velachery,Chennai,3.57,0.9656,2053
+Alandur,Chennai,2.41,0.9851,2056
+Nungambakkam,Chennai,6.52,0.9133,2056
+Kodungaiyur,Chennai,3.54,0.9638,2058
+Royapuram,Chennai,10.92,0.7836,2062
+Ambattur,Chennai,2.9,0.9737,2063
+Adyar,Chennai,4.54,0.937,2067
+Tambaram,Chennai,8.07,0.8053,2070
+Peenya,Bengaluru,5.98,0.858,2126
+Hebbal,Bengaluru,3.55,0.9406,2127
+BTM Layout,Bengaluru,3.15,0.951,2130
+Silk Board,Bengaluru,3.49,0.9389,2130
+Jayanagar,Bengaluru,3.55,0.9297,2130
+Marathahalli,Bengaluru,3.82,0.9243,2131
+Whitefield,Bengaluru,2.65,0.954,2131
+Electronic City,Bengaluru,4.63,0.8671,2132
+Yelahanka,Bengaluru,3.58,0.8906,2133
+Bannerghatta,Bengaluru,4.49,0.8226,2137
+Bollaram,Hyderabad,12.89,0.5178,2137
+Nacharam,Hyderabad,5.48,0.8756,2137
+Sanathnagar,Hyderabad,3.99,0.9203,2137
+Somajiguda,Hyderabad,4.65,0.891,2137
+Jubilee Hills,Hyderabad,5.22,0.8593,2137
+Kompally,Hyderabad,3.49,0.9241,2137
+Kokapet,Hyderabad,3.8,0.9038,2137
+Patancheruvu,Hyderabad,14.8,-0.0966,2137
+Shamshabad,Hyderabad,4.2,0.8822,2137
+Hayathnagar,Hyderabad,4.77,0.8337,2137
+Malviya Nagar,Jaipur,3.4,0.9413,2104
+Tonk Road,Jaipur,6.87,0.8177,2108
+Civil Lines,Jaipur,5.12,0.8756,2109
+Vaishali Nagar,Jaipur,2.51,0.9627,2113
+Sodala,Jaipur,2.62,0.958,2116
+Pratap Nagar,Jaipur,2.43,0.9607,2118
+Sanganer,Jaipur,2.96,0.9433,2119
+Mansarovar,Jaipur,7.29,0.8143,2079
+Shastri Nagar,Jaipur,6.02,0.8577,2088
+Sindhi Camp,Jaipur,4.46,0.4671,2093

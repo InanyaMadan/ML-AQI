@@ -1,0 +1,143 @@
+/* Custom CSS for AQI Dashboard */
+
+/* Import distinctive fonts */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+/* Root variables */
+:root {
+    --bg-primary:    #0a0e1a;
+    --bg-secondary:  #111827;
+    --bg-card:       #1a2035;
+    --accent-red:    #e74c3c;
+    --accent-green:  #2ecc71;
+    --accent-blue:   #3498db;
+    --accent-orange: #f39c12;
+    --text-primary:  #f0f4ff;
+    --text-muted:    #8892a4;
+    --border:        #2a3548;
+}
+
+/* Main app background */
+.stApp {
+    background-color: var(--bg-primary) !important;
+    font-family: 'Space Mono', monospace;
+}
+
+/* Sidebar */
+.css-1d391kg, [data-testid="stSidebar"] {
+    background-color: var(--bg-secondary) !important;
+    border-right: 1px solid var(--border);
+}
+
+/* Metric cards */
+[data-testid="metric-container"] {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    transition: transform 0.2s;
+}
+
+[data-testid="metric-container"]:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-blue);
+}
+
+/* Headers */
+h1, h2, h3 {
+    font-family: 'Syne', sans-serif !important;
+    letter-spacing: -0.02em;
+}
+
+h1 {
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+    background: linear-gradient(
+        135deg, #e74c3c, #f39c12, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    padding: 4px;
+    gap: 4px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: transparent;
+    border-radius: 8px;
+    color: var(--text-muted);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+    padding: 8px 16px;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: var(--accent-blue) !important;
+    color: white !important;
+}
+
+/* Selectbox and sliders */
+.stSelectbox > div > div {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 8px !important;
+    color: var(--text-primary) !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(
+        135deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    padding: 10px 24px;
+    transition: all 0.2s;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(52,152,219,0.4);
+}
+
+/* AQI category badges */
+.aqi-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+/* Info boxes */
+.info-box {
+    background: var(--bg-card);
+    border-left: 4px solid var(--accent-blue);
+    border-radius: 0 8px 8px 0;
+    padding: 16px;
+    margin: 8px 0;
+}
+
+/* Warning box */
+.warning-box {
+    background: rgba(231,76,60,0.1);
+    border-left: 4px solid var(--accent-red);
+    border-radius: 0 8px 8px 0;
+    padding: 16px;
+    margin: 8px 0;
+}
+
+/* Divider */
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 24px 0;
+}
